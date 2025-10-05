@@ -1,45 +1,157 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Matheus Lima</title>
 
-  <!-- Fontes do Google: Montserrat (títulos) e Roboto (texto) -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@400&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="style.css">
+  
+  <title>Meu Site Pessoal</title>
+
+  <style>
+
+    /* ======= ESTILO GLOBAL ======= */
+
+    body {
+
+      margin: 0;
+
+      font-family: Arial, sans-serif;
+
+      background-color: #ffffff; /* fundo branco */
+
+      color: #000000; /* texto preto */
+
+      text-align: center;
+
+    }
+
+
+
+    /* ======= MENU SUPERIOR ======= */
+
+    nav {
+
+      background-color: #f4f4f4;
+
+      padding: 15px;
+
+      position: sticky;
+
+      top: 0;
+
+    }
+
+
+
+    nav a {
+
+      margin: 0 15px;
+
+      text-decoration: none;
+
+      color: #000000;
+
+      font-weight: bold;
+
+    }
+
+
+
+    nav a:hover {
+
+      color: gray;
+
+    }
+
+
+
+    /* ======= FOTO DE PERFIL ======= */
+
+    .avatar {
+
+      width: 150px;
+
+      height: 150px;
+
+      border-radius: 50%;
+
+      margin-top: 50px;
+
+    }
+
+
+
+    /* ======= SEÇÕES ======= */
+
+    section {
+
+      padding: 60px 20px;
+
+    }
+
+
+
+    footer {
+
+      margin-top: 50px;
+
+      padding: 20px;
+
+      font-size: 14px;
+
+      color: #555;
+
+    }
+
+  </style>
+
 </head>
+
 <body>
-  <!-- Cabeçalho simples -->
-  <header>
-    <img src="foto.jpg" alt="Minha foto de perfil" class="perfil">
-    <h1>Matheus Lima</h1>
-    <p>Estudante de Engenharia Elétrica | USP</p>
-  </header>
 
-  <!-- Conteúdo -->
-  <main>
-    <section>
-      <h2>Sobre mim</h2>
-      <p>Sou apaixonado por tecnologia, música e engenharia. Esse espaço é para compartilhar meus projetos e ideias.</p>
-    </section>
+  <!-- MENU SUPERIOR -->
 
-    <section>
-      <h2>Projetos</h2>
-      <ul>
-        <li>Contador de voltas com sensor de laser</li>
-        <li>Experimentos de física e química</li>
-      </ul>
-    </section>
+  <nav>
 
-    <section>
-      <h2>Contato</h2>
-      <p><a href="mailto:seuemail@gmail.com">seuemail@gmail.com</a></p>
-    </section>
-  </main>
+    <a href="index.html">Home</a>
 
-  <!-- Rodapé discreto -->
-  <footer>
-    <p>&copy; 2025 Matheus Lima</p>
-  </footer>
+    <a href="sobre.html">Sobre</a>
+
+    <a href="projetos.html">Projetos</a>
+
+    <a href="contato.html">Contato</a>
+
+  </nav>
+
+
+
+  <!-- CONTEÚDO PRINCIPAL -->
+
+  <section>
+
+    <img src="foto.png" alt="Minha Foto" class="avatar">
+
+    <h1>Seu Nome</h1>
+
+    <p>Bem-vindo ao meu site pessoal minimalista.</p>
+
+  </section>
+
+
+
+  <!-- RODAPÉ -->
+
+  <footer>
+
+    <p>© 2025 Seu Nome — Hospedado no GitHub Pages</p>
+
+  </footer>
+
 </body>
+
 </html>
