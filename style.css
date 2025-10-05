@@ -5,6 +5,10 @@ body {
   background-color: #ffffff; /* fundo branco */
   color: #000000; /* texto preto */
   text-align: center;
+  /* ADICIONE AS 3 LINHAS ABAIXO */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* vh = Altura da Tela (Viewport Height) */
 }
 
 /* ======= MENU SUPERIOR ======= */
@@ -28,14 +32,12 @@ nav a:hover {
 }
 
 /* ======= SEÇÕES GENÉRICAS ======= */
+/* ======= SEÇÕES GENÉRICAS ======= */
 section {
   padding: 60px 20px;
+  /* ADICIONE A LINHA ABAIXO */
+  flex-grow: 1; /* Faz a seção crescer para empurrar o rodapé */
 }
-
-h1 {
-  text-align: center;
-}
-
 /* ======= ESTILOS DA PÁGINA HOME (index.html) ======= */
 .avatar {
   width: 150px;
