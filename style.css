@@ -1,44 +1,68 @@
-/* Reset básico: tira margens padrão e define estilo base */
+/* -------- ESTILO GLOBAL -------- */
 body {
   margin: 0; /* Remove margens padrão do navegador */
-  font-family: 'Popins', sans-serif; /* Fonte do texto */
+  font-family: 'Roboto', sans-serif; /* Fonte padrão para textos */
+  background: #ffffff; /* Fundo branco (tema claro) */
+  color: #333; /* Texto cinza escuro para boa leitura */
   line-height: 1.6; /* Espaçamento entre linhas */
-  background: #727c77; /* Cor de fundo (cinza bem claro) */
-  color: #ffffff; /* Cor do texto (cinza escuro) */
-  text-align: center; /* Centraliza o texto */
+  text-align: center; /* Centraliza texto por padrão */
 }
 
-/* Estiliza o cabeçalho */
+/* -------- CABEÇALHO -------- */
 header {
-  background: #0077cc; /* Cor de fundo (azul) */
-  color: white; /* Texto branco */
-  padding: 30px 0; /* Espaçamento interno: 30px em cima/baixo e 0 nas laterais */
+  padding: 40px 20px; /* Espaço interno em cima/baixo e nas laterais */
 }
 
-/* Estilo da foto de perfil */
 header .perfil {
-  width: 150px; /* Tamanho da foto */
-  border-radius: 50%; /* Deixa a foto redonda */
-  border: 4px solid white; /* Borda branca ao redor da foto */
-  margin-bottom: 15px; /* Espaço abaixo da foto */
+  width: 120px; /* Tamanho da foto de perfil */
+  border-radius: 50%; /* Deixa a imagem redonda */
+  margin-bottom: 15px; /* Espaço abaixo da imagem */
 }
 
-/* Estilo das seções */
+h1 {
+  font-family: 'Montserrat', sans-serif; /* Fonte especial para destaque */
+  font-size: 2rem; /* Tamanho do título principal */
+  margin: 10px 0; /* Espaço em cima e embaixo */
+}
+
+p {
+  max-width: 600px; /* Limita largura do parágrafo (não deixa texto muito comprido) */
+  margin: auto; /* Centraliza o texto */
+}
+
+/* -------- SEÇÕES -------- */
 section {
   padding: 40px 20px; /* Espaçamento interno */
-  max-width: 800px; /* Largura máxima do texto */
-  margin: auto; /* Centraliza o conteúdo na página */
+  border-bottom: 1px solid #eee; /* Linha cinza bem clara para separar seções */
 }
 
-/* Títulos de seções (h2) */
 h2 {
-  color: #727c77; /* Azul */
-  margin-bottom: 10px; /* Espaço abaixo do título */
+  font-family: 'Montserrat', sans-serif; /* Fonte especial para subtítulos */
+  color: #0077cc; /* Azul suave (cor de destaque) */
+  margin-bottom: 15px; /* Espaço abaixo do subtítulo */
 }
 
-/* Rodapé */
+/* -------- LISTA DE PROJETOS -------- */
+ul {
+  list-style: none; /* Remove bolinhas da lista */
+  padding: 0; /* Remove o recuo da lista */
+}
+ul li {
+  margin: 10px 0; /* Espaço entre cada item da lista */
+}
+
+/* -------- LINKS -------- */
+a {
+  color: #0077cc; /* Azul igual ao título (harmoniza as cores) */
+  text-decoration: none; /* Remove sublinhado padrão */
+}
+a:hover {
+  text-decoration: underline; /* Sublinha apenas quando o mouse passa por cima */
+}
+
+/* -------- RODAPÉ -------- */
 footer {
-  background: #727c77; /* Fundo preto/cinza escuro */
-  color: white; /* Texto branco */
-  padding: 15px; /* Espaçamento interno */
+  padding: 20px; /* Espaçamento interno */
+  font-size: 0.9rem; /* Texto um pouco menor que o normal */
+  color: #777; /* Cinza suave para não chamar tanta atenção */
 }
