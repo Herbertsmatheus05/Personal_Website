@@ -1,0 +1,44 @@
+/* Reset básico: tira margens padrão e define estilo base */
+body {
+  margin: 0; /* Remove margens padrão do navegador */
+  font-family: Arial, sans-serif; /* Fonte do texto */
+  line-height: 1.6; /* Espaçamento entre linhas */
+  background: #f9f9f9; /* Cor de fundo (cinza bem claro) */
+  color: #333; /* Cor do texto (cinza escuro) */
+  text-align: center; /* Centraliza o texto */
+}
+
+/* Estiliza o cabeçalho */
+header {
+  background: #0077cc; /* Cor de fundo (azul) */
+  color: white; /* Texto branco */
+  padding: 30px 0; /* Espaçamento interno: 30px em cima/baixo e 0 nas laterais */
+}
+
+/* Estilo da foto de perfil */
+header .perfil {
+  width: 150px; /* Tamanho da foto */
+  border-radius: 50%; /* Deixa a foto redonda */
+  border: 4px solid white; /* Borda branca ao redor da foto */
+  margin-bottom: 15px; /* Espaço abaixo da foto */
+}
+
+/* Estilo das seções */
+section {
+  padding: 40px 20px; /* Espaçamento interno */
+  max-width: 800px; /* Largura máxima do texto */
+  margin: auto; /* Centraliza o conteúdo na página */
+}
+
+/* Títulos de seções (h2) */
+h2 {
+  color: #0077cc; /* Azul */
+  margin-bottom: 10px; /* Espaço abaixo do título */
+}
+
+/* Rodapé */
+footer {
+  background: #222; /* Fundo preto/cinza escuro */
+  color: white; /* Texto branco */
+  padding: 15px; /* Espaçamento interno */
+}
