@@ -3,8 +3,8 @@ body {
   margin: 0; /* Remove margens padrão do navegador */
   font-family: Arial, sans-serif; /* Fonte do texto */
   line-height: 1.6; /* Espaçamento entre linhas */
-  background: #f9f9f9; /* Cor de fundo (cinza bem claro) */
-  color: #333; /* Cor do texto (cinza escuro) */
+  background: #0f0936; /* Cor de fundo (cinza bem claro) */
+  color: #000000; /* Cor do texto (cinza escuro) */
   text-align: center; /* Centraliza o texto */
 }
 
