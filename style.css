@@ -1,66 +1,116 @@
-/* -------- ESTILO GLOBAL -------- */
+/* ======= ESTILO GLOBAL ======= */
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif; /* Texto simples */
-  background: #ffffff; /* Fundo branco */
-  color: #000000; /* Texto preto */
-  line-height: 1.6;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* fundo branco */
+  color: #000000; /* texto preto */
   text-align: center;
 }
 
-/* -------- CABEÇALHO -------- */
-header {
-  padding: 60px 20px 40px; /* Mais espaço em cima */
+/* ======= MENU SUPERIOR ======= */
+nav {
+  background-color: #f4f4f4;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Garante que o menu fique sobre outros elementos */
 }
 
-header .perfil {
-  width: 120px;
-  border-radius: 50%; /* Foto redonda */
-  margin-bottom: 20px;
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: gray;
+}
+
+/* ======= SEÇÕES GENÉRICAS ======= */
+section {
+  padding: 60px 20px;
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  margin: 0;
+  text-align: center;
 }
 
-p {
-  max-width: 600px;
-  margin: 10px auto;
+/* ======= ESTILOS DA PÁGINA HOME (index.html) ======= */
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 50px;
 }
 
-/* -------- SEÇÕES -------- */
-section {
-  padding: 60px 20px; /* Grandes blocos de respiro */
+/* ======= ESTILOS DA PÁGINA SOBRE (sobre.html) ======= */
+.sobre-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
 }
 
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
+.sobre-container p {
+  line-height: 1.6;
+}
+
+/* ======= ESTILOS DA PÁGINA PROJETOS (projetos.html) ======= */
+.projetos-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.projeto {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
   margin-bottom: 20px;
+  text-align: left;
 }
 
-/* -------- LISTA DE PROJETOS -------- */
-ul {
-  list-style: none; /* Sem marcadores */
-  padding: 0;
-}
-ul li {
-  margin: 10px 0;
+.projeto h2 {
+  margin-top: 0;
 }
 
-/* -------- LINKS -------- */
-a {
-  color: #000000; /* Link preto */
+.projeto a {
+  color: #007bff;
   text-decoration: none;
-}
-a:hover {
-  text-decoration: underline; /* Só aparece no hover */
+  font-weight: bold;
 }
 
-/* -------- RODAPÉ -------- */
+.projeto a:hover {
+  text-decoration: underline;
+}
+
+/* ======= ESTILOS DA PÁGINA CONTATO (contato.html) ======= */
+.contato p {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.email {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+/* ======= RODAPÉ ======= */
 footer {
-  padding: 40px;
-  font-size: 0.9rem;
+  margin-top: 50px;
+  padding: 20px;
+  font-size: 14px;
+  color: #555;
 }
