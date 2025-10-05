@@ -32,13 +32,13 @@ section {
 
 /* Títulos de seções (h2) */
 h2 {
-  color: #0077cc; /* Azul */
+  color: #727c77; /* Azul */
   margin-bottom: 10px; /* Espaço abaixo do título */
 }
 
 /* Rodapé */
 footer {
-  background: #222; /* Fundo preto/cinza escuro */
+  background: #727c77; /* Fundo preto/cinza escuro */
   color: white; /* Texto branco */
   padding: 15px; /* Espaçamento interno */
 }
