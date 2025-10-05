@@ -85,7 +85,18 @@ section {
 .projeto a:hover {
   text-decoration: underline;
 }
+/
 
+* ======= ESTILOS DOS ÍCONES SOCIAIS ======= */
+.social-links img {
+  margin: 0 15px; /* Adiciona um espaço entre os ícones */
+  transition: opacity 0.3s ease; /* Cria uma transição suave */
+}
+
+/* Efeito ao passar o mouse sobre os ícones */
+.social-links img:hover {
+  opacity: 0.7; /* Deixa o ícone um pouco transparente */
+}
 /* ======= ESTILOS DA PÁGINA CONTATO (contato.html) ======= */
 .contato p {
   margin-bottom: 40px;
